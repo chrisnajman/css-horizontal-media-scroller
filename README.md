@@ -17,9 +17,17 @@ I recently rewatched Psycho and, struck by the number of scenes involving mirror
 
 ## Installation
 
-See my [One-page site template](https://github.com/chrisnajman/one-page-site-template)
+In a folder on your computer:
+
+- `git init`
+- `git remote add origin git@github.com:chrisnajman/css-horizontal-media-scroller.git`
+- `git pull origin main`
 
 ## Credits
 
 - [Tutorial: Create a horizontal media scroller with CSS, by Kevin Powell](https://youtu.be/3yfswsnD2sw)
 - [PNG to WEBP conversion] (https://www.photopea.com/)
+
+## Related
+
+See my [One-page site template](https://github.com/chrisnajman/one-page-site-template)
