@@ -1,0 +1,54 @@
+@use "reset";
+@use "base";
+@use "components";
+@use "layout";
+
+// to be put in its own component
+
+// .media {
+//     &-scroller {
+//         --_spacer: 1rem;
+//         max-width: 85rem;
+//         margin-left: auto;
+//         margin-right: auto;
+//         display: grid;
+//         gap: var(--_spacer);
+//         grid-auto-flow: column;
+//         grid-auto-columns: 85%;
+
+//         overflow-x: auto;
+//         overscroll-behavior-inline: contain;
+//     }
+
+//     &-element {
+//         display: flex;
+//         flex-direction: column;
+
+//         picture {
+//             flex-grow: 1;
+//             background: rgb(168, 168, 168);
+//         }
+
+//         img {
+//             inline-size: 100%;
+//             aspect-ratio: 16 / 9;
+//             object-fit: cover;
+//         }
+//         p {
+//             text-align: center;
+//             max-width: 100%;
+//             margin: 0;
+//             // margin-top: auto;
+//             padding-top: var(--_spacer);
+//             min-height: 1rem;
+//         }
+//     }
+// }
+
+// .snaps-inline {
+//     scroll-snap-type: inline mandatory;
+
+//     & > * {
+//         scroll-snap-align: start;
+//     }
+// }

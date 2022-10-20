@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pure CSS Slider." />
+    <meta name="robots" content="index" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>CSS Horizontal Media Scroller</title>
+  </head>
+  <body role="document">
+    <div id="page" role="main">
+      <div class="content-wrapper">
+        <main class="main content-main">
+          <article class="article">
+            <header class="header" id="pageTop">
+              <h1>
+                <span>CSS Horizontal Media Scroller</span>
+              </h1>
+            </header>
+            <h2>Features</h2>
+            <ul>
+              <li>Scroll snapping</li>
+              <li>
+                Screen-reader- and keyboard-navigation-friendly scrolling.
+              </li>
+            </ul>
+            <h2>Images: Why Psycho?</h2>
+            <p>
+              I recently rewatched Psycho and, struck by the number of scenes
+              involving mirrors, I made some screenshots. Then I started on this
+              little project and needed some dummy content...
+            </p>
+            <div
+              class="media-scroller snaps-inline"
+              role="region"
+              aria-label="Scrollable images from the film 'Psycho'."
+              tabindex="0"
+            >
+              <div class="media-element">
+                <picture>
+                  <source
+                    srcset="./img/1-mirror-marion.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./img/1-mirror-marion.jpg"
+                    alt="Marion Crane reflected in a mirror as she turns away."
+                    width="1095"
+                    height="1032"
+                  />
+                </picture>
+                <p>
+                  Mirror: Marion Crane in her apartment before leaving Phoenix
+                  with the &dollar;40,000.
+                </p>
+              </div>
+
+              <div class="media-element">
+                <picture>
+                  <source srcset="./img/2-mirror-car.webp" type="image/webp" />
+                  <img
+                    src="./img/2-mirror-car.jpg"
+                    alt="The police car reflected in Marion Crane's rearview mirror."
+                    loading="lazy"
+                    width="1095"
+                    height="1032"
+                  />
+                </picture>
+                <p>Mirror: police car in Marion Crane's rearview.</p>
+              </div>
+
+              <div class="media-element">
+                <picture>
+                  <source srcset="./img/3-mirror-sam.webp" type="image/webp" />
+                  <img
+                    src="./img/3-mirror-sam.jpg"
+                    alt="Sam reflected in a mirror as he talks to Norman Bates."
+                    loading="lazy"
+                    width="1095"
+                    height="1032"
+                  />
+                </picture>
+                <p>
+                  Mirror: Sam keeps Norman Bates talking while Lila finds Mrs
+                  Bates.
+                </p>
+              </div>
+
+              <div class="media-element">
+                <picture>
+                  <source
+                    srcset="./img/4-mirror-sister.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./img/4-mirror-sister.jpg"
+                    alt="Lila surpised by her own reflection in two mirrors."
+                    loading="lazy"
+                    width="1095"
+                    height="1032"
+                  />
+                </picture>
+                <p>Mirror: Lila jumps at her own reflection.</p>
+              </div>
+            </div>
+          </article>
+        </main>
+      </div>
+      <footer class="page-footer">
+        <section>
+          <h2>Image credits</h2>
+          <ul>
+            <li>
+              PNG to WEBP conversion:
+              <a
+                class="url-text"
+                href="https://www.photopea.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://www.photopea.com/</a
+              >
+            </li>
+            <li>
+              Favicon generator:
+              <a
+                class="url-text"
+                href="https://realfavicongenerator.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://realfavicongenerator.net/</a
+              >
+            </li>
+          </ul>
+          <h2>Code Credits</h2>
+          <ul>
+            <li>
+              From the YouTube tutorial: Create a horizontal media scroller with
+              CSS, by Kevin Powell,
+              <a
+                class="url-text"
+                href="https://youtu.be/3yfswsnD2sw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://youtu.be/3yfswsnD2sw</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Related pages by site author</h2>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/chrisnajman/one-page-site-template"
+                target="_blank"
+                rel="noopener noreferrer"
+                >One-page site template</a
+              >
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

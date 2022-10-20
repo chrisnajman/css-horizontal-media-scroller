@@ -1,0 +1,44 @@
+// @use "../abstracts" as ab;
+
+.media {
+    &-scroller {
+        --_spacer: 1rem;
+        margin: 0 auto;
+        max-width: 85rem;
+        display: grid;
+        gap: var(--_spacer);
+        grid-auto-flow: column;
+        grid-auto-columns: 85%;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+
+        &:focus {
+            outline-offset: 5px;
+            border-radius: 5px;
+        }
+    }
+
+    &-element {
+        display: grid;
+        grid-template-rows: min-content;
+        gap: var(--_spacer);
+
+        picture > img {
+            inline-size: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}
+
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+
+    & > * {
+        scroll-snap-align: start;
+    }
+}
