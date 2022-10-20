@@ -30,4 +30,5 @@ In a folder on your computer:
 
 ## Related
 
-See my [One-page site template](https://github.com/chrisnajman/one-page-site-template)
+- [Github repository](https://github.com/chrisnajman/css-horizontal-media-scroller)
+- This page is built with my [One-page site template](https://github.com/chrisnajman/one-page-site-template), where more information can be found about Node.js and Webpack.
